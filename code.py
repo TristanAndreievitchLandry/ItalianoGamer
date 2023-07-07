@@ -135,7 +135,6 @@ end_sound = audiomp3.MP3Decoder(open("end.mp3", "rb"))
 
 # Function to play sound
 
-
 def play_sound(sound):
     audio = audioio.AudioOut(board.A0)
     audio.play(sound)
@@ -158,7 +157,7 @@ k = keypad.ShiftRegisterKeys(
     value_when_pressed=True,
 )
 
-# advanced electronic shit
+# advanced electronic stuff
 # I must read Howowitz & Read
 
 # return a value from zero to 127
